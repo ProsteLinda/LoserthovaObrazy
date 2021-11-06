@@ -135,10 +135,9 @@ font-weight: 900;
 src: local('Inter Black'), url('Inter-Black.woff') format('woff');
 }
 
-
 @font-face {
-font-family: 'Inter';
-font-style: italic;
-font-weight: 900;
-src: local('Inter Black Italic'), url('Inter-BlackItalic.woff') format('woff');
+font-family: 'Merriweather';
+font-style: normal;
+font-weight: 200;
+src: local('Merriweather Regular'), url('Merriweather-Regular.tff') format("truetype");
 }

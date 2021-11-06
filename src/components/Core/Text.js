@@ -30,18 +30,17 @@ const ParagraphSmall = styled(Paragraph)`
   font-size: 16px;
   letter-spacing: -0.5px;
   line-height: 28px;
+  font-familly: "Merriweather", serif;
   ${color};
   ${space};
-  ${typography};
   ${shadow};
 `;
 
 const ParagraphTag = styled(Paragraph)`
-  font-size: 0.8125rem;
+  font-size: 1rem;
   line-height: 1.63;
   letter-spacing: 1.63px;
-  font-weight: 700;
-  text-transform: uppercase;
+  font-weight: 300;
   ${color};
   ${space};
   ${typography};

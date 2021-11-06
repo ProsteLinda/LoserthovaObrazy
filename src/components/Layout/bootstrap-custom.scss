@@ -1,6 +1,6 @@
 // Override default variables before the import
 
-$primary: rgb(130 178 223);
+$primary: #56b381;
 $secondary: #f5f5f7;
 $success: #56b381;
 $bg: #ffffff;
@@ -13,10 +13,11 @@ $headings-color: $text;
 $body-bg: $bg;
 $font-family-base: "Inter", sans-serif;
 $headings-font-family: $font-family-base;
-$headings-font-weight: 700;
+$headings-font-weight: 600;
 
 //Import font
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;600&display=swap");
 
 // Import Bootstrap and its default variables
 @import "~bootstrap/scss/bootstrap.scss";

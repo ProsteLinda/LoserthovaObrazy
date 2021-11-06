@@ -10,16 +10,6 @@ const SectionTitle = styled.h2`
   line-height: 54px;
   margin-bottom: 0;
 
-  @media ${device.sm} {
-    font-size: 50px;
-    line-height: 62px;
-  }
-
-  @media ${device.lg} {
-    font-size: 60px;
-    line-height: 70px;
-  }
-
   ${color};
   ${space};
   ${typography};
@@ -51,23 +41,14 @@ const SectionSm = styled(SectionTitle)`
 
 const HeroTitle = styled(SectionTitle)`
   letter-spacing: -2.81px;
-  font-size: 50px;
+  font-size: 78px;
   line-height: 56px;
+`;
 
-  @media ${device.sm} {
-    font-size: 66px;
-    line-height: 70px;
-  }
-
-  @media ${device.lg} {
-    font-size: 76px;
-    line-height: 84px;
-  }
-
-  @media ${device.xl} {
-    font-size: 80px;
-    line-height: 84px;
-  }
+const LogoTitle = styled(SectionTitle)`
+  font-size: 30px;
+  line-height: 40px;
+  letter-spacing: 0px;
 `;
 
 const CardTitle = styled.h4`
@@ -129,6 +110,9 @@ const Title = ({ variant, ...rest }) => {
       break;
     case "hero":
       TitleStyled = HeroTitle;
+      break;
+    case "logo":
+      TitleStyled = LogoTitle;
       break;
     case "secSm":
       TitleStyled = SectionSm;
