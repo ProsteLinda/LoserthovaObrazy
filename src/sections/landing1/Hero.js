@@ -28,10 +28,10 @@ const Hero = () => {
                   color="heading"
                   mb="40px"
                 >
-                  ILLUSTRATOR, GRAPHIC DESIGNER, TRAVELER
+                  KRESBY, MALBY, PŘÍRODA, CESTOVÁNÍ
                 </Text>
                 <Title variant="hero">
-                  I design digital crafts for clients.
+                  Ráda Vás zde vítám!
                 </Title>
 
                 <Box mt="52px">
@@ -42,7 +42,7 @@ const Hero = () => {
                     offset={-50}
                     duration={1000}
                   >
-                    <Button arrowRight>Explore works </Button>
+                    <Button arrowRight>Prohlédnout si práce </Button>
                   </Link>
                 </Box>
               </Box>
