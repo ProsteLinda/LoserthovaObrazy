@@ -6,7 +6,7 @@ import { Link } from "react-scroll";
 import { Title, Button, Section, Box, Text } from "../../components/Core";
 
 import { device } from "../../utils";
-import imgL from "../../assets/image/png/portrait-1.png";
+import imgL from "../../assets/images/1_Uvodni.png";
 
 const ImgRight = styled.img`
   max-width: 100%;
@@ -28,7 +28,7 @@ const Hero = () => {
                   color="heading"
                   mb="40px"
                 >
-                  KRESBY, MALBY, PŘÍRODA, CESTOVÁNÍ
+                  PAVLA LOSERTHOVÁ OBRAZY
                 </Text>
                 <Title variant="hero">
                   Ráda Vás zde vítám!

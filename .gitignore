@@ -12,8 +12,9 @@ firebase-debug.*.log*
 # Firebase cache
 .firebase/
 
-# Public files
+# Generated
 public/
+.cache/
 
 # Firebase config
 
