@@ -9,7 +9,7 @@ import Contact from "../sections/landing1/Contact";
 const IndexPage = () => {
   return (
     <>
-      <PageWrapper darkTheme>
+      <PageWrapper>
         <Hero />
         <Element name="works">
           <Works />

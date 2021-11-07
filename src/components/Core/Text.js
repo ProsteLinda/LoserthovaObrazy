@@ -37,7 +37,7 @@ const ParagraphSmall = styled(Paragraph)`
 `;
 
 const ParagraphTag = styled(Paragraph)`
-  font-size: 1rem;
+  font-size: 18px;
   line-height: 1.63;
   letter-spacing: 1.63px;
   font-weight: 300;

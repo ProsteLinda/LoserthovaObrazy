@@ -106,11 +106,8 @@ const Layout = ({ children, pageContext }) => {
   if (pageContext.layout === "bare") {
     return (
       <ThemeProvider
-        theme={
-          gContext.theme.bodyDark ? getTheme(modes.dark) : getTheme(modes.light)
-        }
+        theme={getTheme(modes.light)}
       >
-        <ThemeSwitch />
         <GlobalStyle />
         <Helmet>
           <title>Loserthová obrazy</title>
@@ -133,11 +130,8 @@ const Layout = ({ children, pageContext }) => {
   return (
     <>
       <ThemeProvider
-        theme={
-          gContext.theme.bodyDark ? getTheme(modes.dark) : getTheme(modes.light)
-        }
+        theme={getTheme(modes.light)}
       >
-        <ThemeSwitch />
         <GlobalStyle />
         <Helmet>
           <title>Loserthová obrazy</title>

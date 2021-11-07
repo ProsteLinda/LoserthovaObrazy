@@ -19,7 +19,7 @@ const Hero = () => {
         <Container>
           <Row className="align-items-center">
             <Col lg="8" className="mb-5 mt-2 mb-lg-0">
-              <Box>
+              <Box mt="120px" mb="120px">
                 <Title variant="hero">
                   Ráda Vás zde vítám!
                 </Title>
@@ -41,8 +41,7 @@ const Hero = () => {
                     duration={1000}
                   >
                     <Button variant="success">
-                      <div>Prohlédnout si tvorbu </div>
-                      <div>▼</div>
+                      <div>Prohlédněte si moji tvorbu</div>
                     </Button>
                   </Link>
                 </Box>
