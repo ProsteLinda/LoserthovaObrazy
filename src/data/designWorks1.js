@@ -1,129 +1,209 @@
-import imgT1 from "../assets/image/jpg/agency/masonry/portfolio-mas-8.jpg";
-import imgT2 from "../assets/image/jpg/agency/masonry/portfolio-mas-7.jpg";
-import imgT3 from "../assets/image/jpg/agency/masonry/portfolio-mas-6.jpg";
-import imgT4 from "../assets/image/jpg/agency/masonry/portfolio-mas-5.jpg";
-import imgT5 from "../assets/image/jpg/agency/masonry/portfolio-mas-4.jpg";
-import imgT6 from "../assets/image/jpg/agency/masonry/portfolio-mas-3.jpg";
-import imgT7 from "../assets/image/jpg/agency/masonry/portfolio-mas-16.jpg";
-import imgT8 from "../assets/image/jpg/agency/masonry/portfolio-mas-15.jpg";
-import imgT9 from "../assets/image/jpg/agency/masonry/portfolio-mas-2.jpg";
-import imgT10 from "../assets/image/jpg/agency/masonry/portfolio-mas-1.jpg";
-import imgT11 from "../assets/image/jpg/agency/masonry/portfolio-mas-12.jpg";
-import imgT12 from "../assets/image/jpg/agency/masonry/portfolio-mas-11.jpg";
-import imgT13 from "../assets/image/jpg/agency/masonry/portfolio-mas-14.jpg";
-import imgT14 from "../assets/image/jpg/agency/masonry/portfolio-mas-13.jpg";
+import imgFig1 from "../assets/images/Fig1.jpg";
+import imgFig2 from "../assets/images/Fig2.jpg";
+import imgFig3 from "../assets/images/Fig3.jpg";
+import imgFig4 from "../assets/images/Fig4.jpg";
+import imgFig5 from "../assets/images/Fig5.jpg";
+import imgFig6 from "../assets/images/Fig6.jpg";
+import imgFig7 from "../assets/images/Fig7.jpg";
 
+import imgKvety1 from "../assets/images/Kvety1.jpg";
+import imgKvety2 from "../assets/images/Kvety2.jpg";
+import imgKvety3 from "../assets/images/Kvety3.jpg";
+import imgKvety4 from "../assets/images/Kvety4.jpg";
+import imgKvety5 from "../assets/images/Kvety5.jpg";
+import imgKvety6 from "../assets/images/Kvety6.jpg";
+import imgKvety7 from "../assets/images/Kvety7.jpg";
+import imgKvety8 from "../assets/images/Kvety8.jpg";
+
+import imgZatisi1 from "../assets/images/Zatisi1.jpg";
+
+import imgZCest1 from "../assets/images/ZCest1.jpg";
+import imgZCest2 from "../assets/images/ZCest2.jpg";
+import imgZCest3 from "../assets/images/ZCest3.jpg";
+import imgZCest4 from "../assets/images/ZCest4.jpg";
+
+import imgZOkoli1 from "../assets/images/ZOkoli1.jpg";
+import imgZOkoli2 from "../assets/images/ZOkoli2.jpg";
+import imgZOkoli3 from "../assets/images/ZOkoli3.jpg";
+import imgZOkoli4 from "../assets/images/ZOkoli4.jpg";
+
+//Categories = zokoli, zcest, fig, kvety, zatisi
 export const designWorks1 = [
   {
-    brand: `Perfumed`,
-    slug: `perfumed`,
-    title: `Adaptable but Identifiable Product for Kandinsky.`,
-    categories: ["web"],
-    thumbnail: imgT1,
+    brand: ``,
+    slug: ``,
+    title: ``,
+    categories: [`fig`],
+    thumbnail: imgFig1,
+  link : "/portfolio-details"
+},{
+    brand: ``,
+    slug: ``,
+    title: ``,
+    categories: [`fig`],
+    thumbnail: imgFig2,
+  link : "/portfolio-details"
+},{
+    brand: ``,
+    slug: ``,
+    title: ``,
+    categories: [`fig`],
+    thumbnail: imgFig3,
+  link : "/portfolio-details"
+},{
+    brand: ``,
+    slug: ``,
+    title: ``,
+    categories: [`fig`],
+    thumbnail: imgFig4,
+  link : "/portfolio-details"
+},{
+    brand: ``,
+    slug: ``,
+    title: ``,
+    categories: [`fig`],
+    thumbnail: imgFig5,
+  link : "/portfolio-details"
+},{
+    brand: ``,
+    slug: ``,
+    title: ``,
+    categories: [`fig`],
+    thumbnail: imgFig6,
+  link : "/portfolio-details"
+},{
+    brand: ``,
+    slug: ``,
+    title: ``,
+    categories: [`fig`],
+    thumbnail: imgFig7,
   link : "/portfolio-details"
 },
-  {
-    brand: `Travel App`,
-    slug: `travel-app`,
-    title: `Adaptable but Identifiable Product for Kandinsky.`,
-    categories: [`photography`, `branding`],
-    thumbnail: imgT2,
+
+{
+  brand: ``,
+  slug: ``,
+  title: ``,
+  categories: [`kvety`],
+  thumbnail: imgKvety1,
+  link : "/portfolio-details"
+},{
+  brand: ``,
+  slug: ``,
+  title: ``,
+  categories: [`kvety`],
+  thumbnail: imgKvety2,
+  link : "/portfolio-details"
+},{
+  brand: ``,
+  slug: ``,
+  title: ``,
+  categories: [`kvety`],
+  thumbnail: imgKvety3,
+  link : "/portfolio-details"
+},{
+    brand: ``,
+    slug: ``,
+    title: ``,
+    categories: [`kvety`],
+    thumbnail: imgKvety4,
+  link : "/portfolio-details"
+},{
+    brand: ``,
+    slug: ``,
+    title: ``,
+    categories: [`kvety`],
+    thumbnail: imgKvety5,
+  link : "/portfolio-details"
+},{
+    brand: ``,
+    slug: ``,
+    title: ``,
+    categories: [`kvety`],
+    thumbnail: imgKvety6,
+  link : "/portfolio-details"
+},{
+    brand: ``,
+    slug: ``,
+    title: ``,
+    categories: [`kvety`],
+    thumbnail: imgKvety7,
+  link : "/portfolio-details"
+},{
+    brand: ``,
+    slug: ``,
+    title: ``,
+    categories: [`kvety`],
+    thumbnail: imgKvety8,
   link : "/portfolio-details"
 },
-  {
-    brand: `Shopper`,
-    slug: `shopper`,
-    title: `Adaptable but Identifiable Product for Kandinsky.`,
-    categories: [`marketing`, `ux-design`, `branding`],
-    thumbnail: imgT3,
+
+{
+    brand: ``,
+    slug: ``,
+    title: ``,
+    categories: [`zatisi`],
+    thumbnail: imgZatisi1,
   link : "/portfolio-details"
 },
-  {
-    brand: `Candy Store`,
-    slug: `candy-store`,
-    title: `Adaptable but Identifiable Product for Kandinsky.`,
-    categories: [`branding`],
-    thumbnail: imgT4,
+
+{
+  brand: ``,
+  slug: ``,
+  title: ``,
+  categories: [`zcest`],
+  thumbnail: imgZCest1,
+  link : "/portfolio-details"
+},{
+    brand: ``,
+    slug: ``,
+    title: ``,
+    categories: [`zcest`],
+    thumbnail: imgZCest2,
+  link : "/portfolio-details"
+},{
+    brand: ``,
+    slug: ``,
+    title: ``,
+    categories: [`zcest`],
+    thumbnail: imgZCest3,
+  link : "/portfolio-details"
+},{
+    brand: ``,
+    slug: ``,
+    title: ``,
+    categories: [`zcest`],
+    thumbnail: imgZCest4,
   link : "/portfolio-details"
 },
-  {
-    brand: `Travel App`,
-    slug: `travel-app`,
-    title: `Adaptable but Identifiable Product for Kandinsky.`,
-    categories: [`branding`, `photography`, `ux-design`],
-    thumbnail: imgT5,
+
+{
+  brand: ``,
+  slug: ``,
+  title: ``,
+  categories: [`zokoli`],
+  thumbnail: imgZOkoli1,
   link : "/portfolio-details"
-},
-  {
-    brand: `Ice Cream`,
-    slug: `ice-cream`,
-    title: `Adaptable but Identifiable Product for Kandinsky.`,
-    categories: [`branding`, `marketing`],
-    thumbnail: imgT6,
+},{
+  brand: ``,
+  slug: ``,
+  title: ``,
+  categories: [`zokoli`],
+  thumbnail: imgZOkoli2,
   link : "/portfolio-details"
-},
-  {
-    brand: `Camera`,
-    slug: `Camera`,
-    title: `Adaptable but Identifiable Product for Kandinsky.`,
-    categories: [`branding`, `photography`],
-    thumbnail: imgT7,
+},{
+  brand: ``,
+  slug: ``,
+  title: ``,
+  categories: [`zokoli`],
+  thumbnail: imgZOkoli3,
   link : "/portfolio-details"
-},
-  {
-    brand: `Smart Watch`,
-    slug: `smart-watch`,
-    title: `Adaptable but Identifiable Product for Kandinsky.`,
-    categories: [`branding`, `ux-design`],
-    thumbnail: imgT8,
-  link : "/portfolio-details"
-},
-  {
-    brand: `Smart Film`,
-    slug: `smart-film`,
-    title: `Adaptable but Identifiable Product for Kandinsky.`,
-    categories: [`marketing`, `ux-design`, `photography`],
-    thumbnail: imgT9,
-  link : "/portfolio-details"
-},
-  {
-    brand: `Coffee Cream`,
-    slug: `coffee-cream`,
-    title: `Adaptable but Identifiable Product for Kandinsky.`,
-    categories: [`marketing`, `ux-design`],
-    thumbnail: imgT10,
-  link : "/portfolio-details"
-},
-  {
-    brand: `Noodles`,
-    slug: `noodles`,
-    title: `Adaptable but Identifiable Product for Kandinsky.`,
-    categories: [`marketing`, `photography`],
-    thumbnail: imgT11,
-  link : "/portfolio-details"
-},
-  {
-    brand: `Laptop Desk`,
-    slug: `laptop-desk`,
-    title: `Adaptable but Identifiable Product for Kandinsky.`,
-    categories: [`ux-design`, `photography`, `branding`],
-    thumbnail: imgT12,
-  link : "/portfolio-details"
-},
-  {
-    brand: `Candy Store`,
-    slug: `candy-store`,
-    title: `Adaptable but Identifiable Product for Kandinsky.`,
-    categories: [`ux-design`],
-    thumbnail: imgT13,
-  link : "/portfolio-details"
-},
-  {
-    brand: `Caffee Roast`,
-    slug: `coffee-roast`,
-    title: `Adaptable but Identifiable Product for Kandinsky.`,
-    categories: [`ux-design`],
-    thumbnail: imgT14,
+},{
+  brand: ``,
+  slug: ``,
+  title: ``,
+  categories: [`zokoli`],
+  thumbnail: imgZOkoli4,
   link : "/portfolio-details"
 },
 ];

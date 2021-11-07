@@ -30,7 +30,7 @@ const Works = () => {
   const masonryOptions = {
     transitionDuration: 1000,
   };
-
+//Categories = zokoli, zcest, fig, kvety, zatisi
   return (
     <>
       {/* <!-- Works Area --> */}
@@ -48,46 +48,59 @@ const Works = () => {
                     filterBy("*");
                   }}
                 >
-                  All works
+                  Vše
                 </a>
               </li>
               <li className="nav-item">
                 <a
                   className={`nav-link font-weight-bold text-uppercase ${
-                    activeLink === "branding" ? "active" : null
+                    activeLink === "kvety" ? "active" : null
                   }`}
                   onClick={(e) => {
                     e.preventDefault();
-                    filterBy("branding");
+                    filterBy("kvety");
                   }}
                 >
-                  Branding
+                  Květy
                 </a>
               </li>
               <li className="nav-item">
                 <a
                   className={`nav-link font-weight-bold text-uppercase ${
-                    activeLink === "ux-design" ? "active" : null
+                    activeLink === "zokoli" ? "active" : null
                   }`}
                   onClick={(e) => {
                     e.preventDefault();
-                    filterBy("ux-design");
+                    filterBy("zokoli");
                   }}
                 >
-                  UX Design
+                  Z okolí
                 </a>
               </li>
               <li className="nav-item">
                 <a
                   className={`nav-link font-weight-bold text-uppercase ${
-                    activeLink === "photography" ? "active" : null
+                    activeLink === "fig" ? "active" : null
                   }`}
                   onClick={(e) => {
                     e.preventDefault();
-                    filterBy("photography");
+                    filterBy("fig");
                   }}
                 >
-                  Photography
+                  Figurální
+                </a>
+              </li>
+              <li className="nav-item">
+                <a
+                  className={`nav-link font-weight-bold text-uppercase ${
+                    activeLink === "zcest" ? "active" : null
+                  }`}
+                  onClick={(e) => {
+                    e.preventDefault();
+                    filterBy("zcest");
+                  }}
+                >
+                  Z cest
                 </a>
               </li>
             </ListNav>

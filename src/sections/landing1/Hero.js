@@ -40,7 +40,10 @@ const Hero = () => {
                     offset={-50}
                     duration={1000}
                   >
-                    <Button variant="success">Prohlédnout si tvorbu </Button>
+                    <Button variant="success">
+                      <div>Prohlédnout si tvorbu </div>
+                      <div>▼</div>
+                    </Button>
                   </Link>
                 </Box>
               </Box>
