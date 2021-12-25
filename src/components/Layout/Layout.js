@@ -16,6 +16,7 @@ import ThemeSwitch from "../ThemeSwitch";
 
 import ModalVideo from "../ModalVideo";
 import ContactModal from "../ContactModal";
+import ImageModal from "../ImageModal";
 import AboutModal from "../AboutModal";
 
 import GlobalContext from "../../context/GlobalContext";
@@ -149,7 +150,7 @@ const Layout = ({ children, pageContext }) => {
           <Footer isDark={gContext.theme.footerDark} />
         </div>
         <AboutModal />
-        <ContactModal />
+        <ImageModal />
         <ModalVideo />
       </ThemeProvider>
     </>

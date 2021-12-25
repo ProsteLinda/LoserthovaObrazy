@@ -12,6 +12,8 @@ const GlobalProvider = ({ children }) => {
   const [videoModalVisible, setVideoModalVisible] = useState(false);
   const [aboutVisible, setAboutVisible] = useState(false);
   const [contactVisible, setContactVisible] = useState(false);
+  const [imageVisible, setImageVisible] = useState(false);
+  const [actualImage, setImage] = useState("");
   const [visibleOffCanvas, setVisibleOffCanvas] = useState(false);
 
   const changeTheme = (themeConfig = themeConfigDefault) => {
@@ -36,6 +38,14 @@ const GlobalProvider = ({ children }) => {
     setContactVisible(!contactVisible);
   };
 
+  const toggleImage = () => {
+    setImageVisible(!imageVisible);
+  };
+
+  const setActualImage = (imageUrl) => {
+    setImage(imageUrl);
+  }
+
   const closeContact = () => {
     setContactVisible(false);
   };
@@ -56,6 +66,10 @@ const GlobalProvider = ({ children }) => {
         closeAbout,
         contactVisible,
         toggleContact,
+        imageVisible,
+        toggleImage,
+        actualImage,
+        setActualImage,
         closeContact,
         visibleOffCanvas,
         toggleOffCanvas,

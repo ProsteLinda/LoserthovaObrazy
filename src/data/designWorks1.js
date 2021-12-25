@@ -31,49 +31,49 @@ import imgZOkoli4 from "../assets/images/ZOkoli4.jpg";
 export const designWorks1 = [
   {
     brand: ``,
-    slug: ``,
+    slug: `60x40`,
     title: ``,
     categories: [`fig`],
     thumbnail: imgFig1,
   link : "/portfolio-details"
 },{
     brand: ``,
-    slug: ``,
+    slug: `60x40`,
     title: ``,
     categories: [`fig`],
     thumbnail: imgFig2,
   link : "/portfolio-details"
 },{
     brand: ``,
-    slug: ``,
+    slug: `60x40`,
     title: ``,
     categories: [`fig`],
     thumbnail: imgFig3,
   link : "/portfolio-details"
 },{
     brand: ``,
-    slug: ``,
+    slug: `60x40`,
     title: ``,
     categories: [`fig`],
     thumbnail: imgFig4,
   link : "/portfolio-details"
 },{
     brand: ``,
-    slug: ``,
+    slug: `60x40`,
     title: ``,
     categories: [`fig`],
     thumbnail: imgFig5,
   link : "/portfolio-details"
 },{
     brand: ``,
-    slug: ``,
+    slug: `30x60`,
     title: ``,
     categories: [`fig`],
     thumbnail: imgFig6,
   link : "/portfolio-details"
 },{
     brand: ``,
-    slug: ``,
+    slug: `50x40`,
     title: ``,
     categories: [`fig`],
     thumbnail: imgFig7,
@@ -82,56 +82,56 @@ export const designWorks1 = [
 
 {
   brand: ``,
-  slug: ``,
+  slug: `60x50`,
   title: ``,
   categories: [`kvety`],
   thumbnail: imgKvety1,
   link : "/portfolio-details"
 },{
   brand: ``,
-  slug: ``,
+  slug: `65x45`,
   title: ``,
   categories: [`kvety`],
   thumbnail: imgKvety2,
   link : "/portfolio-details"
 },{
   brand: ``,
-  slug: ``,
+  slug: `30x25`,
   title: ``,
   categories: [`kvety`],
   thumbnail: imgKvety3,
   link : "/portfolio-details"
 },{
     brand: ``,
-    slug: ``,
+    slug: `60x20`,
     title: ``,
     categories: [`kvety`],
     thumbnail: imgKvety4,
   link : "/portfolio-details"
 },{
     brand: ``,
-    slug: ``,
+    slug: `70x50`,
     title: ``,
     categories: [`kvety`],
     thumbnail: imgKvety5,
   link : "/portfolio-details"
 },{
     brand: ``,
-    slug: ``,
+    slug: `60x40`,
     title: ``,
     categories: [`kvety`],
     thumbnail: imgKvety6,
   link : "/portfolio-details"
 },{
     brand: ``,
-    slug: ``,
+    slug: `40x50`,
     title: ``,
     categories: [`kvety`],
     thumbnail: imgKvety7,
   link : "/portfolio-details"
 },{
     brand: ``,
-    slug: ``,
+    slug: `20x20`,
     title: ``,
     categories: [`kvety`],
     thumbnail: imgKvety8,
@@ -140,7 +140,7 @@ export const designWorks1 = [
 
 {
     brand: ``,
-    slug: ``,
+    slug: `50x45`,
     title: ``,
     categories: [`zatisi`],
     thumbnail: imgZatisi1,
@@ -149,28 +149,28 @@ export const designWorks1 = [
 
 {
   brand: ``,
-  slug: ``,
+  slug: `40x60`,
   title: ``,
   categories: [`zcest`],
   thumbnail: imgZCest1,
   link : "/portfolio-details"
 },{
     brand: ``,
-    slug: ``,
+    slug: `51x27`,
     title: ``,
     categories: [`zcest`],
     thumbnail: imgZCest2,
   link : "/portfolio-details"
 },{
     brand: ``,
-    slug: ``,
+    slug: `50x40`,
     title: ``,
     categories: [`zcest`],
     thumbnail: imgZCest3,
   link : "/portfolio-details"
 },{
     brand: ``,
-    slug: ``,
+    slug: `70x50`,
     title: ``,
     categories: [`zcest`],
     thumbnail: imgZCest4,
@@ -179,28 +179,28 @@ export const designWorks1 = [
 
 {
   brand: ``,
-  slug: ``,
+  slug: `40x40`,
   title: ``,
   categories: [`zokoli`],
   thumbnail: imgZOkoli1,
   link : "/portfolio-details"
 },{
   brand: ``,
-  slug: ``,
+  slug: `60x35`,
   title: ``,
   categories: [`zokoli`],
   thumbnail: imgZOkoli2,
   link : "/portfolio-details"
 },{
   brand: ``,
-  slug: ``,
+  slug: `60x30`,
   title: ``,
   categories: [`zokoli`],
   thumbnail: imgZOkoli3,
   link : "/portfolio-details"
 },{
   brand: ``,
-  slug: ``,
+  slug: `60x20`,
   title: ``,
   categories: [`zokoli`],
   thumbnail: imgZOkoli4,

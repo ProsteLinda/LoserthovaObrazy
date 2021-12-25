@@ -41,21 +41,25 @@ const SectionSm = styled(SectionTitle)`
 
 const HeroTitle = styled(SectionTitle)`
   letter-spacing: -2.81px;
-  font-size: 78px;
+  font-size: 50px;
   line-height: 56px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 200;
 `;
 
 const LogoTitle = styled(SectionTitle)`
   font-size: 30px;
   line-height: 40px;
   letter-spacing: 0px;
+  font-weight: 300;
 `;
 
 const CardTitle = styled.h4`
   font-size: 1.3125rem;
-  font-weight: 700;
   letter-spacing: -0.5px;
   line-height: 1;
+  font-weight: 300;
   ${color};
   ${space};
   ${typography};
@@ -63,9 +67,10 @@ const CardTitle = styled.h4`
 `;
 
 const CardTitleSm = styled(CardTitle)`
-  font-size: 1.0625rem;
+  font-size: 1 rem;
   letter-spacing: -0.2px;
   line-height: 1;
+  font-weight: 300;
   ${color};
   ${space};
   ${typography};
@@ -75,6 +80,7 @@ const CardTitleSm = styled(CardTitle)`
 const CardTitleLg = styled(CardTitle)`
   font-size: 1.5rem;
   line-height: 1.42;
+  font-weight: 300;
   ${color};
   ${space};
   ${typography};

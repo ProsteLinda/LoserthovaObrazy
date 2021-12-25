@@ -1,7 +1,9 @@
-import React from "react";
+import React, { useContext } from "react";
 import { Link } from "gatsby";
 import styled from "styled-components";
 import { Box, Title, Text } from "../Core";
+import GlobalContext from "../../context/GlobalContext";
+
 
 const WorkBox = styled(Box)``;
 const TextBox = styled(Box)`
@@ -32,21 +34,33 @@ const TextBox = styled(Box)`
   }
 `;
 
-const WorkCard = ({ workItem, link, ...rest }) => (
-  <WorkBox className="position-relative" {...rest}>
-    <Link to={link} className="d-block">
-      <img src={workItem.thumbnail} alt="" className="w-100" />
-    </Link>
 
-    <TextBox>
-      <Text variant="tag" mb={2}>
-        {workItem.categories[0]}
-      </Text>
-      <Title variant="card">
-        <Link to={link}>{workItem.brand} </Link>
-      </Title>
-    </TextBox>
-  </WorkBox>
-);
 
+
+const WorkCard = ({ workItem, link, ...rest }) => {
+  const gContext = useContext(GlobalContext);
+
+  const onImageClick = () => {
+    gContext.setActualImage(workItem.thumbnail);
+    gContext.toggleImage();
+    console.log("clicked div")
+  };
+
+  return (
+    <WorkBox className="position-relative" {...rest}>
+      <div onClick={onImageClick}>
+        <img src={workItem.thumbnail} alt="" className="w-100" />
+      </div>
+
+      <TextBox>
+        <Text variant="tag" mb={2}>
+          {workItem.slug}
+        </Text>
+        <Title variant="card">
+          <Link to={link}>{workItem.brand} </Link>
+        </Title>
+      </TextBox>
+    </WorkBox>
+  )
+};
 export default WorkCard;

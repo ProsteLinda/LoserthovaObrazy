@@ -1,9 +1,9 @@
 import React, { useContext } from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import ContactForm from "../../components/ContactForm";
 
 import GlobalContext from "../../context/GlobalContext";
 import { Section, Title, ButtonIcon } from "../../components/Core";
-import Availability from "../../components/Availability";
 
 const Hero = () => {
   const gContext = useContext(GlobalContext);
@@ -14,9 +14,8 @@ const Hero = () => {
         <Container>
           <Row className="text-center justify-content-center">
             <Col lg="10" xl="7">
-              <Availability />
               <div className="text-center my-5">
-                <Title>Do you have illustration project? Let's talk.</Title>
+                <Title variant="logo">Děkuji Vám za návštěvu!</Title>
               </div>
               <div className="text-center">
                 <ButtonIcon
@@ -25,7 +24,7 @@ const Hero = () => {
                     gContext.toggleContact();
                   }}
                 >
-                  Let's Talk Now
+                  Kontaktujte mě zde (ve vývoji)
                 </ButtonIcon>
               </div>
             </Col>
