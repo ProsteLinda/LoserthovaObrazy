@@ -11,30 +11,31 @@ const ContactForm = ({ theme = "dark", ...rest }) => {
       method="post"
       data-netlify="true"
       data-netlify-honeypot="bot-field"
+      id="contactForm"
       {...rest}
     >
       {/* You still need to add the hidden input with the form name to your JSX form */}
       <input type="hidden" name="form-name" value="contact" />
       <div className="mt-4">
-        <Input type="text" placeholder="Your name" required name="name" />
+        <Input type="text" placeholder="Vaše jméno" required name="name" />
       </div>
       <div className="mt-4">
-        <Input type="email" placeholder="Email address" required name="email" />
+        <Input type="email" placeholder="Vaše emailová adresa" required name="email" />
       </div>
       <div className="mt-4">
-        <Input type="text" placeholder="Subject" required name="subject" />
+        <Input type="text" placeholder="Předmět zprávy" required name="subject" />
       </div>
       <div className="mt-4 ">
         <TextArea
           rows={4}
-          placeholder="Write your message"
+          placeholder="Text zprávy"
           required
           name="message"
         />
       </div>
       <div className="mt-4 mt-lg-5">
         <Button arrowRight variant="primary" type="submit">
-          SEND
+          Odeslat
         </Button>
       </div>
     </Form>

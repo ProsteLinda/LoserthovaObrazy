@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import ContactForm from "../../components/ContactForm";
+import ContactModal from "../../components/ContactModal";
 
 import GlobalContext from "../../context/GlobalContext";
 import { Section, Title, ButtonIcon } from "../../components/Core";
@@ -11,6 +11,7 @@ const Hero = () => {
   return (
     <>
       <Section>
+        <ContactModal/>
         <Container>
           <Row className="text-center justify-content-center">
             <Col lg="10" xl="7">
